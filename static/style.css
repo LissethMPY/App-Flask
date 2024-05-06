@@ -1,0 +1,108 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    background-color: #FAF1E6;  /* Un color de fondo pastel suave */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Una fuente moderna y fácil de leer */
+    color: #5D4954;  /* Un color oscuro suave que complementa el tema pastel */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para los encabezados H1 */
+h1 {
+    color: #FFB7B2;  /* Un color pastel suave para el texto del encabezado */
+    background-color: #FFF5E4;  /* Un fondo pastel claro para destacar el encabezado */
+    padding: 20px;
+    border-radius: 15px;  /* Bordes redondeados suaves */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);  /* Sombra suave para dar profundidad */
+    display: inline-block;
+    margin-top: 30px;
+    border: 1px solid #FFDAC1;  /* Borde sutil para definir el recuadro */
+}
+
+/* Estilos para otros encabezados que podrías usar */
+h2 {
+    color: #C7CEEA;  /* Un azul pastel */
+    background-color: #E2F0CB;  /* Un verde pastel muy claro */
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #B5EAD7;
+}
+
+/* Mejoras visuales para los enlaces */
+a {
+    color: #FF9AA2;  /* Un rosa pastel */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFB7B2;  /* Un cambio sutil al color de enlace al pasar el mouse */
+}
+
+/* Estilos para párrafos para mantener el tema suave */
+p {
+    background-color: #E2F0CB;  /* Fondo suave pastel */
+    color: #5D4954;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #C7CEEA;
+}
+
+/* Estilos específicos para botones */
+.button {
+    background-color: #FFB7B2;  /* Color de fondo pastel para botones */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 5px;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #FFDAC1;
+    transform: translateY(-2px);
+}
+
+/* Estilos para separar visualmente cada botón */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilos específicos para botones */
+.button {
+    background-color: #FFB7B2;  /* Color de fondo pastel para botones */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 5px;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #FFDAC1;
+    transform: translateY(-2px);
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
